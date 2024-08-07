@@ -1,3 +1,5 @@
+package maratonajava.introducao;
+
 public class ExercicioFor {
     public static void main(String[] args) {
         int num = 0;

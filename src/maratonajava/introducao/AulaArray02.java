@@ -1,3 +1,5 @@
+package maratonajava.introducao;
+
 public class AulaArray02 {
     public static void main(String[] args) {
         //byte, short, int, long, float e double = 0

@@ -1,3 +1,5 @@
+package maratonajava.introducao;
+
 public class AulaArray03 {
     public static void main(String[] args) {
         int [] numeros = new int [3];
