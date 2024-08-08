@@ -1,5 +1,5 @@
-package ExercicioClasses.test;
-import ExercicioClasses.dominio.Carro;
+package maratonajava.javacore.Aintroducaoclasses.ExercicioClasses.test;
+import maratonajava.javacore.Aintroducaoclasses.ExercicioClasses.dominio.Carro;
 
 import java.util.Scanner;
 public class CarroTest {
