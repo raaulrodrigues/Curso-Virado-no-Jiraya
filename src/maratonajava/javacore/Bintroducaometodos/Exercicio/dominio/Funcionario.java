@@ -1,10 +1,38 @@
 package maratonajava.javacore.Bintroducaometodos.Exercicio.dominio;
 
 public class Funcionario {
-    public String nome;
-    public int idade;
-    public int [] salarios;
+    private String nome;
+    private int idade;
+    private int [] salarios;
+    private int media;
 
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public int[] getSalarios() {
+        return salarios;
+    }
+
+    public void setSalarios(int[] salarios) {
+        this.salarios = salarios;
+    }
+
+    public int getMedia() {
+        return media;
+    }
 
     public void imprimir(){
         System.out.println("Dados do funcionario: ");
@@ -16,7 +44,10 @@ public class Funcionario {
     }
 
     public void mediaSalario(){
-        int media = 0;
+        if(salarios == null){
+            return;
+        }
+
         for(int salario: salarios){
             media += salario;
         }
